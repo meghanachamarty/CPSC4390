@@ -1,0 +1,41 @@
+CS 201 Projects and Deadlines
+Fall 2025
+
+Project 1: Array Operations
+- Due Date: October 20, 2025, 11:59 PM
+- Weight: 10% of final grade
+- Description: Implement dynamic array with insert, delete, and search operations.
+- Language: Java or C++
+
+Project 2: Linked Lists
+- Due Date: November 3, 2025, 11:59 PM
+- Weight: 10% of final grade
+- Description: Build a doubly linked list with iterator support.
+
+Project 3: Trees and Binary Search Trees
+- Due Date: November 17, 2025, 11:59 PM
+- Weight: 10% of final grade
+- Description: Implement BST with insertion, deletion, and traversal methods.
+
+Midterm Exam
+- Date: November 24, 2025, 11:00 AM - 12:30 PM
+- Location: Engineering Building, Room 205
+- Weight: 20% of final grade
+- Topics: Arrays, Linked Lists, Stacks, Queues
+
+Project 4: Graphs and Traversal
+- Due Date: December 8, 2025, 11:59 PM
+- Weight: 10% of final grade
+- Description: Implement graph data structure with BFS and DFS traversal.
+
+Project 5: Dynamic Programming
+- Due Date: December 15, 2025, 11:59 PM
+- Weight: 10% of final grade
+- Description: Solve classic DP problems: knapsack, longest common subsequence.
+
+Final Exam
+- Date: December 22, 2025, 11:00 AM - 1:30 PM
+- Location: Engineering Building, Room 205
+- Weight: 25% of final grade
+- Topics: Comprehensive, all data structures and algorithms covered
+

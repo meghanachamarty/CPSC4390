@@ -1,0 +1,399 @@
+/*
+ * CourseKey Chatbot Styles
+ * 
+ * Layout Structure:
+ * - Three-section flex layout: Header (fixed) -> Messages (flex: 1, scrollable) -> Footer/Input (fixed)
+ * - Messages area fills all available vertical space
+ * - Input area is pinned to bottom as a proper chat footer
+ * 
+ * Design Principles:
+ * - Softer, less saturated colors to blend with Canvas dashboard
+ * - Professional, minimal aesthetic with good white space
+ * - Responsive flexbox layout (no absolute positioning hacks)
+ * - Modern CSS with proper gap, padding, and transitions
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+/* Extension mode: no background, full height container */
+.App.extension-mode {
+  background: transparent;
+  height: 100%; /* Fill iframe - use % not vh in iframe context */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 0;
+  position: relative;
+}
+
+/* Extension mode: Full height in sidebar iframe - MUST fill parent */
+.App.extension-mode .chat-container {
+  width: 100%;
+  max-width: 100%;
+  height: 100%; /* Fill parent (.App) */
+  border-radius: 0;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  position: relative;
+  overflow: hidden; /* Prevent any overflow */
+}
+
+.chat-container {
+  width: 90%;
+  max-width: 800px;
+  height: 90vh;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  /* CRITICAL: Ensure container has explicit height for flex children */
+  min-height: 0;
+}
+
+/* 
+ * Layout Structure:
+ * [Header] -> [Messages (flex: 1, scrollable)] -> [Footer/Input (fixed)]
+ */
+.chat-header {
+  /* Softer gradient to match Canvas aesthetic - less saturated */
+  background: linear-gradient(135deg, #6B7FD7 0%, #7A8BC8 100%);
+  color: white;
+  padding: 16px 20px;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  flex-shrink: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chat-header h1 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  letter-spacing: -0.01em;
+  flex: 1;
+  /* Center the title */
+  text-align: center;
+  /* Default padding */
+  padding: 0 20px;
+  /* Ensure text doesn't overlap with buttons */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* When New Chat button is present, add left padding to avoid overlap with title */
+.chat-header:has(.new-chat-button) h1 {
+  padding-left: 75px; /* Space to prevent overlap with button */
+  padding-right: 60px; /* Ensure right side has space for extension buttons */
+}
+
+.new-chat-button {
+  position: absolute;
+  left: 16px; /* Position on left side */
+  top: 50%;
+  transform: translateY(-50%); /* Center vertically */
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  border-radius: 16px;
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  z-index: 10; /* Ensure it's above the header background */
+  white-space: nowrap; /* Prevent text wrapping */
+  line-height: 1.2;
+  min-width: 50px; /* Small compact button */
+}
+
+.new-chat-button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.new-chat-button:active {
+  transform: translateY(0);
+}
+
+/* Messages area: fills ALL available space between header and footer */
+.chat-messages {
+  flex: 1 1 auto; /* Grow to fill ALL available space */
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 20px;
+  background: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  min-height: 0; /* CRITICAL: Allows scrolling in flex container */
+  gap: 0;
+  /* Ensure it takes available space and allows empty state positioning */
+  position: relative;
+}
+
+.message {
+  margin-bottom: 12px;
+  display: flex;
+  animation: fadeIn 0.3s ease-in;
+  flex-shrink: 0;
+}
+
+.message:last-child {
+  margin-bottom: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.message.user {
+  justify-content: flex-end;
+}
+
+.message.ai {
+  justify-content: flex-start;
+}
+
+.message-content {
+  max-width: 70%;
+  padding: 12px 16px;
+  border-radius: 18px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  font-size: 14px;
+}
+
+.message.user .message-content {
+  /* Softer gradient matching header */
+  background: linear-gradient(135deg, #6B7FD7 0%, #7A8BC8 100%);
+  color: white;
+  border-bottom-right-radius: 4px;
+}
+
+.message.ai .message-content {
+  background: white;
+  color: #2d3748;
+  border: 1px solid #e2e8f0;
+  border-bottom-left-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+
+/* Footer: Fixed at bottom, proper chat input area - MUST stay at bottom */
+.chat-input-container {
+  padding: 16px 20px;
+  background: white;
+  border-top: 1px solid #e2e8f0;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-shrink: 0; /* Never shrink */
+  flex-grow: 0; /* Never grow - fixed height */
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.04);
+  /* Force to bottom - no margin needed, flex handles it */
+  position: relative;
+  z-index: 1; /* Stay above messages when scrolling */
+}
+
+.chat-input {
+  flex: 1;
+  padding: 12px 18px;
+  border: 1.5px solid #cbd5e0;
+  border-radius: 24px;
+  font-size: 15px;
+  font-family: inherit;
+  outline: none;
+  transition: all 0.2s ease;
+  background: #f7fafc;
+  color: #2d3748;
+  min-height: 44px; /* Comfortable touch target */
+}
+
+.chat-input:focus {
+  border-color: #6B7FD7;
+  background: white;
+  box-shadow: 0 0 0 3px rgba(107, 127, 215, 0.1);
+}
+
+.chat-input:disabled {
+  background: #f5f5f5;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.chat-input::placeholder {
+  color: #a0aec0;
+}
+
+/* Send button: More prominent but professional */
+.send-button {
+  padding: 12px 28px;
+  background: linear-gradient(135deg, #6B7FD7 0%, #7A8BC8 100%);
+  color: white;
+  border: none;
+  border-radius: 24px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-height: 44px; /* Match input height for alignment */
+  white-space: nowrap;
+  box-shadow: 0 2px 4px rgba(107, 127, 215, 0.2);
+}
+
+.send-button:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(107, 127, 215, 0.3);
+  background: linear-gradient(135deg, #5a6fc7 0%, #6a7bb8 100%);
+}
+
+.send-button:active:not(:disabled) {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(107, 127, 215, 0.2);
+}
+
+.send-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Multi-Armed Bandit: Button Variants */
+/* Variant A: Softer purple-blue gradient */
+.send-button-variant-A {
+  background: linear-gradient(135deg, #6B7FD7 0%, #7A8BC8 100%);
+}
+
+.send-button-variant-A:hover:not(:disabled) {
+  box-shadow: 0 4px 8px rgba(107, 127, 215, 0.3);
+  background: linear-gradient(135deg, #5a6fc7 0%, #6a7bb8 100%);
+}
+
+/* Variant B: Green gradient (softer) */
+.send-button-variant-B {
+  background: linear-gradient(135deg, #48BB78 0%, #38A169 100%);
+}
+
+.send-button-variant-B:hover:not(:disabled) {
+  box-shadow: 0 4px 8px rgba(72, 187, 120, 0.3);
+  background: linear-gradient(135deg, #38a169 0%, #2f855a 100%);
+}
+
+/* Variant C: Coral/pink gradient + slightly larger */
+.send-button-variant-C {
+  background: linear-gradient(135deg, #ED64A6 0%, #D53F8C 100%);
+  padding: 14px 32px;
+  font-size: 16px;
+}
+
+.send-button-variant-C:hover:not(:disabled) {
+  box-shadow: 0 4px 8px rgba(237, 100, 166, 0.3);
+  background: linear-gradient(135deg, #d53f8c 0%, #b83280 100%);
+}
+
+.chat-messages::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-messages::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.chat-messages::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 3px;
+}
+
+.chat-messages::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Typing indicator animation */
+.typing-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 0;
+}
+
+.typing-indicator span {
+  height: 8px;
+  width: 8px;
+  background-color: #999;
+  border-radius: 50%;
+  display: inline-block;
+  animation: typing 1.4s infinite ease-in-out;
+}
+
+.typing-indicator span:nth-child(1) {
+  animation-delay: -0.32s;
+}
+
+.typing-indicator span:nth-child(2) {
+  animation-delay: -0.16s;
+}
+
+.typing-indicator span:nth-child(3) {
+  animation-delay: 0;
+}
+
+@keyframes typing {
+  0%, 60%, 100% {
+    transform: translateY(0);
+    opacity: 0.7;
+  }
+  30% {
+    transform: translateY(-10px);
+    opacity: 1;
+  }
+}
+
+/* Empty state when no messages - centered in messages area */
+.empty-state {
+  margin-top: auto; /* Push to center */
+  margin-bottom: auto; /* Push to center */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #a0aec0;
+  font-size: 15px;
+  padding: 20px;
+  flex-shrink: 0;
+}
+
+.empty-state p {
+  margin: 0;
+  font-weight: 400;
+}

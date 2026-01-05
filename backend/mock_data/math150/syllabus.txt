@@ -1,0 +1,35 @@
+MATH 150: Calculus I
+Fall 2025
+
+Course Information
+- Instructor: Dr. James Wilson
+- Email: james.wilson@university.edu
+- Office: Science Building, Room 310
+- Office Hours: Monday/Wednesday/Friday 2-3 PM
+
+Course Description
+This course introduces differential calculus: limits, continuity, derivatives, and applications including optimization, related rates, and curve sketching.
+
+Grading Policy
+- Homework: 20% (weekly assignments)
+- Quizzes: 15% (4 quizzes, 3.75% each, lowest dropped)
+- Midterm Exam 1: 20%
+- Midterm Exam 2: 20%
+- Final Exam: 25%
+
+Late Policy
+Homework submitted late will receive a 10% penalty per day. No homework accepted after 3 days.
+
+Drops Policy
+Each student can drop their lowest quiz grade. Drops must be used by Week 12.
+
+Collaboration Policy
+Students may work together on homework problems, but all solutions must be written independently. Sharing complete solutions is prohibited.
+
+Regrade Policy
+Regrade requests must be submitted within 1 week of receiving grades. Show your work and explain why you believe the grade should be changed.
+
+Meeting Times
+- Lecture: Monday/Wednesday/Friday 1:00-2:00 PM
+- Discussion Section: Tuesdays 1:00-2:00 PM (see Canvas for your section)
+

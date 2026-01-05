@@ -1,0 +1,48 @@
+MATH 150 Lecture Schedule
+Fall 2025
+
+Lecture 1: Introduction to Limits
+Topics: Limit notation, intuitive definition, one-sided limits
+
+Lecture 2: Calculating Limits
+Topics: Limit laws, direct substitution, factoring techniques
+
+Lecture 3: Limits at Infinity
+Topics: Horizontal asymptotes, limits involving infinity, end behavior
+
+Lecture 4: Continuity
+Topics: Definition of continuity, types of discontinuities, intermediate value theorem
+
+Lecture 5: Introduction to Derivatives
+Topics: Tangent lines, derivative as limit, geometric interpretation
+
+Lecture 6: Derivative Rules - Power and Sum
+Topics: Power rule, constant multiple rule, sum/difference rule
+
+Lecture 7: Product and Quotient Rules
+Topics: Product rule, quotient rule, examples and applications
+
+Lecture 8: Chain Rule
+Topics: Composition of functions, chain rule, multiple chain rule applications
+
+Lecture 9: Implicit Differentiation
+Topics: Implicit functions, implicit differentiation, related rates introduction
+
+Lecture 10: Applications of Derivatives - Extrema
+Topics: Critical points, local and absolute extrema, first derivative test
+
+Lecture 11: Curve Sketching
+Topics: Increasing/decreasing intervals, concavity, inflection points
+
+Lecture 12: Optimization Problems
+Topics: Setting up optimization problems, solving optimization applications
+
+Lecture 13: Related Rates
+Topics: Related rates problems, setting up equations, solving related rates
+
+Lecture 14: L'Hôpital's Rule
+Topics: Indeterminate forms, applying L'Hôpital's rule, limit evaluation
+
+Lecture 15: Review for Final
+Topics: Comprehensive review of all topics, practice problems
+

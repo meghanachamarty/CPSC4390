@@ -1,0 +1,70 @@
+CS 101 Lecture Schedule and Materials
+
+Lecture 1: Course Introduction (September 2, 2025)
+- Topics: Course overview, syllabus, introduction to Python
+- Materials: Lecture slides available on Canvas under "Files > Lectures > Week1"
+- Key Concepts: Variables, basic data types, print statements
+
+Lecture 2: Python Basics (September 4, 2025)
+- Topics: Strings, numbers, operators, comments
+- Materials: Lecture2_slides.pdf
+- Lab Exercise: Complete simple Python exercises from textbook Chapter 2
+
+Lecture 3: Data Types (September 9, 2025)
+- Topics: Integers, floats, strings, booleans, type conversion
+- Materials: Lecture3_slides.pdf, Lecture3_demo.py
+- Location: Files > Lectures > Week3
+- Important: Bring laptop for in-class coding exercises
+
+Lecture 4: Variables and Assignment (September 11, 2025)
+- Topics: Variable naming rules, assignment operators, multiple assignment
+- Materials: Lecture4_slides.pdf
+
+Lecture 5: Input and Output (September 16, 2025)
+- Topics: print(), input(), f-strings, string formatting
+- Materials: Lecture5_slides.pdf, io_examples.py
+- Assignment Help: Covered concepts needed for Assignment 1
+
+Lecture 6: Conditional Statements (September 18, 2025)
+- Topics: if, elif, else, logical operators, comparison operators
+- Materials: Lecture6_slides.pdf
+
+Lecture 7: Loops Part 1 (September 23, 2025)
+- Topics: while loops, for loops, range(), break, continue
+- Materials: Lecture7_slides.pdf, loop_examples.py
+
+Lecture 8: Loops Part 2 (September 25, 2025)
+- Topics: Nested loops, loop patterns, list comprehensions (intro)
+- Materials: Lecture8_slides.pdf
+- Practice: Complete loops worksheet from Canvas
+
+Lecture 9: Functions (September 30, 2025)
+- Topics: Defining functions, parameters, return values, scope
+- Materials: Lecture9_slides.pdf, functions_demo.py
+
+Lecture 10: Functions Advanced (October 2, 2025)
+- Topics: Default parameters, keyword arguments, lambda functions
+- Materials: Lecture10_slides.pdf
+- Important: This is the last lecture covered on midterm
+
+Lecture 11: Lists (October 7, 2025)
+- Topics: Creating lists, indexing, slicing, list methods
+- Materials: Lecture11_slides.pdf, list_examples.py
+
+Lecture 12: Tuples (October 9, 2025)
+- Topics: Creating tuples, immutable sequences, packing/unpacking
+- Materials: Lecture12_slides.pdf
+
+Lecture 13: Dictionaries (October 14, 2025)
+- Topics: Creating dictionaries, accessing values, dictionary methods
+- Materials: Lecture13_slides.pdf, dict_examples.py
+
+Lecture 14: File I/O (October 16, 2025)
+- Topics: Opening files, reading/writing, with statements, CSV handling
+- Materials: Lecture14_slides.pdf, file_io_demo.py
+
+All lecture materials are available in the Canvas course under "Files > Lectures"
+Project specifications for the final project are posted under "Assignments > Final Project"
+
+
+

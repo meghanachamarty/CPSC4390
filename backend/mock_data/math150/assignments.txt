@@ -1,0 +1,46 @@
+MATH 150 Assignments and Deadlines
+Fall 2025
+
+Homework Assignments (Weekly)
+- Due every Friday at 5:00 PM on Gradescope
+- Weight: 20% total (approximately 1.4% per assignment)
+- Format: Submit PDF scan of handwritten solutions or typed solutions
+
+Quiz 1: Limits and Continuity
+- Date: October 11, 2025, during class time
+- Weight: 3.75% of final grade (lowest quiz dropped)
+- Topics: Limits, continuity, indeterminate forms
+
+Midterm Exam 1
+- Date: October 25, 2025, 1:00-2:30 PM
+- Location: Science Building, Room 310
+- Weight: 20% of final grade
+- Topics: Limits, continuity, derivatives, chain rule
+
+Quiz 2: Derivatives and Applications
+- Date: November 1, 2025, during class time
+- Weight: 3.75% of final grade
+- Topics: Derivative rules, implicit differentiation
+
+Quiz 3: Optimization and Related Rates
+- Date: November 15, 2025, during class time
+- Weight: 3.75% of final grade
+- Topics: Optimization problems, related rates
+
+Midterm Exam 2
+- Date: November 29, 2025, 1:00-2:30 PM
+- Location: Science Building, Room 310
+- Weight: 20% of final grade
+- Topics: Applications of derivatives, curve sketching, optimization
+
+Quiz 4: Review and Integration Preview
+- Date: December 6, 2025, during class time
+- Weight: 3.75% of final grade
+- Topics: Comprehensive review, introduction to integration
+
+Final Exam
+- Date: December 20, 2025, 2:00-4:00 PM
+- Location: Science Building, Room 310
+- Weight: 25% of final grade
+- Topics: Comprehensive, all material from the course
+

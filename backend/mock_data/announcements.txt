@@ -1,0 +1,37 @@
+CS 101 Course Announcements
+
+Announcement 10/10/2025 - Week 2 Update
+Subject: Lab Sections Posted
+Lab section assignments have been posted on Canvas. Please check your section time and location. All students must attend their assigned section. Questions? Email me or come to office hours.
+
+Announcement 10/08/2025 - Week 2
+Subject: First Assignment Reminder
+Assignment 1 is due this Friday (October 15) at 11:59 PM. Make sure to submit your .py file on Canvas. Late submissions will incur the standard 10% per day penalty.
+
+Announcement 10/05/2025 - Week 1
+Subject: Office Hours Change This Week
+Due to a conference, my Monday/Wednesday office hours will be moved to Tuesday (2-4 PM) and Thursday (2-4 PM) this week only. Normal hours resume next week.
+
+Announcement 10/01/2025 - Week 1
+Subject: Welcome to CS 101!
+Welcome everyone! I'm excited to have you in this course. Make sure to review the syllabus on Canvas and familiarize yourself with the course policies. Our first assignment will be posted this Friday.
+
+Announcement 09/30/2025 - Week 0
+Subject: Course Setup
+Course Canvas page is now live. Please complete the "Getting Started" module by Friday. This includes reading the syllabus, setting up Python on your computer, and introducing yourself in the discussion forum.
+
+Announcement 09/28/2025 - Week 0
+Subject: Python Installation
+For students having trouble installing Python, I've posted a detailed guide under "Resources > Installation Guide". There are also YouTube videos linked that walk through the process for Windows, Mac, and Linux.
+
+Important Dates Coming Up:
+- October 15: Assignment 1 due
+- October 22: Assignment 2 due
+- November 5: Assignment 3 due
+- November 19: MIDTERM EXAM
+- December 20: FINAL EXAM
+
+Make sure to check this page regularly for updates and important information.
+
+
+

@@ -1,0 +1,34 @@
+CS 201: Data Structures and Algorithms
+Fall 2025
+
+Course Information
+- Instructor: Dr. Michael Chen
+- Email: michael.chen@university.edu
+- Office: Engineering Building, Room 205
+- Office Hours: Tuesday/Thursday 3-5 PM
+
+Course Description
+This course covers fundamental data structures (arrays, linked lists, stacks, queues, trees, graphs) and algorithms (sorting, searching, graph traversal, dynamic programming).
+
+Grading Policy
+- Programming Projects: 50% (5 projects, 10% each)
+- Midterm Exam: 20%
+- Final Exam: 25%
+- Participation: 5%
+
+Late Policy
+Projects submitted late will receive a 15% penalty per day late. No projects accepted after 2 days.
+
+Drops Policy
+You can drop your lowest one project grade. Drops must be used by Week 10.
+
+Collaboration Policy
+You may discuss algorithms and approaches but all code must be written independently. Sharing code will result in automatic failure for both students.
+
+Regrade Policy
+Regrade requests must be submitted within 5 days of receiving grades. Include a written justification.
+
+Meeting Times
+- Lecture: Tuesday/Thursday 11:00 AM - 12:30 PM
+- Lab: Fridays 2:00-4:00 PM
+

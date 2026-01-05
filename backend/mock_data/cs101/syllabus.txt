@@ -1,0 +1,68 @@
+CS 101: Introduction to Computer Science
+Fall 2025
+
+Course Information
+- Instructor: Dr. Sarah Johnson
+- Email: sarah.johnson@university.edu
+- Office: Tech Building, Room 301
+- Office Hours: Monday/Wednesday 2-4 PM
+
+Course Description
+This course introduces fundamental concepts of computer science including programming basics, data structures, algorithms, and problem-solving techniques.
+
+Grading Policy
+- Assignments: 40% (10 assignments, 4% each)
+- Midterm Exam: 25%
+- Final Exam: 25%
+- Participation: 10%
+
+How is the final grade calculated? Your final grade is broken down as follows: assignments count for 40% of your grade (with 10 assignments worth 4% each), the midterm exam is worth 25%, the final exam is worth 25%, and class participation accounts for 10% of your final grade.
+
+What percentage does each component contribute? Assignments make up the largest portion at 40%, followed by the midterm and final exams each at 25%, and participation at 10%.
+
+Late Policy
+Assignments submitted after the deadline will be subject to a 10% penalty per day late. No assignments will be accepted more than 3 days after the due date.
+
+What is the late submission penalty? Assignments turned in late will lose 10% of points for each day past the deadline. For example, an assignment worth 100 points submitted one day late will receive a maximum of 90 points. Submissions more than 3 days late will not be accepted at all.
+
+When is the late penalty applied? The late penalty applies immediately after the deadline passes. Each 24-hour period after the due date results in an additional 10% deduction.
+
+Drops Policy
+Each student can drop their lowest two assignment grades. The drops must be used by the end of Week 12.
+
+How many assignment drops are allowed? Each student is allowed to drop their two lowest assignment scores. This means if you perform poorly on two assignments, those grades will not count toward your final grade.
+
+When must I decide to use my drops? You must decide which assignments to drop by the end of Week 12. After that deadline, all assignment grades will count toward your final grade.
+
+Can I drop exam grades? No, assignment drops only apply to assignments. Midterm and final exam grades cannot be dropped.
+
+Collaboration Policy
+Students may discuss high-level concepts but must write code independently. Copying code from other students or online sources is strictly prohibited and will result in a zero for the assignment and reporting to the Academic Integrity Board.
+
+What collaboration is allowed? You are allowed to discuss general concepts, algorithms, and problem-solving approaches with classmates. However, you must write all code yourself.
+
+What collaboration is not allowed? Copying code from other students or copying code from online sources like Stack Overflow or GitHub is strictly forbidden. Sharing your code with others is also prohibited.
+
+What happens if I violate the collaboration policy? Violations will result in a zero grade on the assignment and will be reported to the Academic Integrity Board, which may impose additional penalties.
+
+Regrade Policy
+Regrade requests must be submitted within 1 week of receiving grades. All requests must include a written explanation of why the regrade is warranted.
+
+How long do I have to request a regrade? You have 1 week (7 days) from when grades are posted to submit a regrade request.
+
+What information must I include in a regrade request? Your request must include a written explanation explaining why you believe the grade should be changed. Simply saying "I think I deserve more points" is not sufficient - you need to point out specific errors in grading or explain why your answer should be considered correct.
+
+When will regrades be processed? Regrade requests will be reviewed within 2 weeks of submission. Note that grades can go up or down after a regrade review.
+
+Announcements
+Last updated: Week 2
+- Lab section times have been posted on Canvas
+- First assignment due this Friday at 11:59 PM
+- Office hours this week moved to Tuesday/Thursday due to conference
+
+Meeting Times
+- Lecture: Monday/Wednesday/Friday 10:00-11:00 AM
+- Lab: Tuesdays 2:00-4:00 PM (see Canvas for your section)
+
+
+

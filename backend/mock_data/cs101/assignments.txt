@@ -1,0 +1,57 @@
+CS 101 Assignments and Deadlines
+Fall 2025
+
+Assignment 1: Introduction to Python
+- Due Date: October 15, 2025, 11:59 PM
+- Weight: 4% of final grade
+- Description: Write a Python program that calculates the factorial of a number and handles basic input/output.
+- Requirements: Code must be well-commented and follow PEP 8 style guide.
+- Submission: Submit via Canvas, file must be named "assignment1_lastname.py"
+
+Assignment 2: Data Types and Variables
+- Due Date: October 22, 2025, 11:59 PM
+- Weight: 4% of final grade
+- Description: Create a program that converts between different temperature units (Celsius, Fahrenheit, Kelvin).
+- Requirements: Must handle all three conversions and include error checking.
+
+Assignment 3: Control Flow and Loops
+- Due Date: November 5, 2025, 11:59 PM
+- Weight: 4% of final grade
+- Description: Implement a guessing game using while loops and conditionals.
+- Requirements: Game must track number of guesses and provide hints.
+
+Assignment 4: Functions and Modules
+- Due Date: November 12, 2025, 11:59 PM
+- Weight: 4% of final grade
+- Description: Create a calculator module with functions for basic arithmetic operations.
+
+Midterm Exam
+- Date: November 19, 2025, 10:00 AM - 12:00 PM
+- Location: Classroom 301
+- Weight: 25% of final grade
+- Topics: Everything covered in lectures 1-10
+- Format: Multiple choice and short answer questions
+
+Assignment 5: Lists and Tuples
+- Due Date: November 26, 2025, 11:59 PM
+- Weight: 4% of final grade
+- Description: Build a gradebook application that stores and calculates student grades.
+
+Assignment 6: Dictionaries
+- Due Date: December 3, 2025, 11:59 PM
+- Weight: 4% of final grade
+- Description: Create a contact management system using dictionaries.
+
+Assignment 7: File I/O
+- Due Date: December 10, 2025, 11:59 PM
+- Weight: 4% of final grade
+- Description: Write a program that reads and processes a CSV file.
+
+Final Exam
+- Date: December 20, 2025, 10:00 AM - 12:00 PM
+- Location: Classroom 301
+- Weight: 25% of final grade
+- Topics: Comprehensive, covers entire course
+
+
+

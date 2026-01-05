@@ -1,0 +1,27 @@
+CS 201 Course Announcements
+
+Announcement 10/15/2025 - Week 3
+Subject: Project 1 Reminder
+Project 1 is due next Monday (October 20) at 11:59 PM. Make sure to submit via Gradescope. Late submissions will incur a 15% per day penalty.
+
+Announcement 10/10/2025 - Week 2
+Subject: Office Hours Location Change
+My Tuesday office hours this week will be in Room 210 instead of Room 205 due to a conference room booking.
+
+Announcement 10/05/2025 - Week 1
+Subject: Welcome to CS 201!
+Welcome everyone! Please review the syllabus and familiarize yourself with the course policies. Our first project will be posted this Friday.
+
+Announcement 10/01/2025 - Week 1
+Subject: Course Materials Available
+All course materials including lecture slides and project specifications are now available on Canvas under "Resources > Course Materials".
+
+Important Dates:
+- October 20: Project 1 due
+- November 3: Project 2 due
+- November 17: Project 3 due
+- November 24: MIDTERM EXAM
+- December 8: Project 4 due
+- December 15: Project 5 due
+- December 22: FINAL EXAM
+

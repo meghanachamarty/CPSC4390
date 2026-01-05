@@ -1,0 +1,39 @@
+CS 201 Lecture Schedule
+Fall 2025
+
+Lecture 1: Introduction to Data Structures
+Topics: Overview of data structures, abstract data types, time/space complexity analysis
+
+Lecture 2: Arrays and Dynamic Arrays
+Topics: Array implementation, dynamic resizing, amortized analysis
+
+Lecture 3: Linked Lists
+Topics: Singly linked lists, doubly linked lists, operations and applications
+
+Lecture 4: Stacks and Queues
+Topics: Stack operations (push, pop), queue operations (enqueue, dequeue), applications
+
+Lecture 5: Trees - Introduction
+Topics: Tree terminology, binary trees, tree traversal (in-order, pre-order, post-order)
+
+Lecture 6: Binary Search Trees
+Topics: BST properties, insertion, deletion, search operations, balancing
+
+Lecture 7: Hash Tables
+Topics: Hash functions, collision resolution (chaining, open addressing), load factor
+
+Lecture 8: Heaps and Priority Queues
+Topics: Heap structure, heap operations, heap sort, priority queue applications
+
+Lecture 9: Graphs - Introduction
+Topics: Graph representation (adjacency list, adjacency matrix), graph types
+
+Lecture 10: Graph Algorithms
+Topics: Breadth-first search (BFS), depth-first search (DFS), shortest path algorithms
+
+Lecture 11: Sorting Algorithms
+Topics: Comparison-based sorting (quicksort, mergesort), non-comparison sorting
+
+Lecture 12: Dynamic Programming
+Topics: Memoization, bottom-up DP, classic DP problems
+
